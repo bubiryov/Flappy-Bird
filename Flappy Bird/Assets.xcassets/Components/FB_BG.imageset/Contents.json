@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "FB_BG.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
