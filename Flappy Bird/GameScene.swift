@@ -115,7 +115,7 @@ extension GameScene {
     
     func createTopBoundary() {
         topBoundary = SKSpriteNode(color: .clear, size: CGSize(width: size.width, height: 1))
-        topBoundary.position = CGPoint(x: frame.midX, y: cameraRect.maxY)
+        topBoundary.position = CGPoint(x: frame.midX, y: frame.maxY)
         topBoundary.physicsBody = SKPhysicsBody(rectangleOf: topBoundary.size)
         topBoundary.physicsBody?.isDynamic = false
         topBoundary.physicsBody!.affectedByGravity = false
